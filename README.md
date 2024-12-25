@@ -1,2 +1,2 @@
 # easyvms
-Easily create a QEMU VM on Windows with minimal setup
+Easily create a QEMU VM on Windows with minimal manual setup
