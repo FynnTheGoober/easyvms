@@ -1,2 +1,3 @@
-Ubuntu 24.04,https://releases.ubuntu.com/24.04.1/ubuntu-24.04.1-desktop-amd64.iso
+Alpine Linux,https://dl-cdn.alpinelinux.org/alpine/v3.21/releases/x86_64/alpine-extended-3.21.0-x86_64.iso
 Arch Linux,https://geo.mirror.pkgbuild.com/iso/2024.12.01/archlinux-x86_64.iso
+Haiku OS,https://mirrors.tnonline.net/haiku/haiku-release/r1beta5/haiku-r1beta5-x86_64-anyboot.iso
