@@ -8,7 +8,7 @@ Easily create a QEMU VM on Windows with minimal manual setup and without admin p
 - A working internet connection
 
 ## This sounds great, where do I start?
-Just download the main batch file [Here!](https://github.com/TMC4345/easyvms/raw/refs/heads/main/EasyVMs.bat) :3
+Just download the main batch file [Here!](https://github.com/TMC4345/easyvms/blob/main/EasyVMs.bat) :3
 
 ### But wait, this doesn't use any acceleration?
 This project does infact not use any hardware acceleration, but this is because of VM Acceleration needing kernel module access (Which requires admin), and acceleration didn't work on my machine. However, that might be due to me having an AMD CPU. If you want to try acceleration, feel free to replace `--accel tcg` with `--accel whpx` in the batch files.
