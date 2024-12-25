@@ -1,5 +1,5 @@
 @echo off
-title EasyVM: Start VM
+title EasyVMs: Start VM
 
 set "DEST_DIR=%cd%\resources\QEMU"
 set "MACHINES_DIR=%cd%\machines"
