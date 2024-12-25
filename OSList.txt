@@ -1,3 +1,2 @@
 Alpine Linux,https://dl-cdn.alpinelinux.org/alpine/v3.21/releases/x86_64/alpine-extended-3.21.0-x86_64.iso
 Arch Linux,https://geo.mirror.pkgbuild.com/iso/2024.12.01/archlinux-x86_64.iso
-Haiku OS,https://ftp.osuosl.org/pub/haiku/r1beta5/haiku-r1beta5-x86_64-anyboot.iso
