@@ -108,8 +108,9 @@ if exist "%os_folder%\%disk_name%" (
 move /y "%cd%\resources\installer.iso" "%os_folder%\installer.iso"
 
 echo Starting VM for %selected_os%...
-"%DEST_DIR%\qemu-system-x86_64.exe" -m 2048 -hda "%os_folder%\%disk_name%" -cdrom "%os_folder%\installer.iso" -boot d --accel tcg
+"%DEST_DIR%\qemu-system-x86_64.exe" -m 2048 -hda "%os_folder%\%disk_name%" -cdrom "%os_folder%\installer.iso" -boot d --accel tcg -device usb-tablet
 
+echo Run "Start Machine.bat" to start your VM!
 powershell -Command "Invoke-WebRequest -Uri 'https://github.com/TMC4345/easyvms/raw/refs/heads/main/Start Machine.bat' -OutFile '%cd%\Start Machine.bat'"
 
 :end
