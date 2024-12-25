@@ -40,6 +40,6 @@ if not exist "%disk_image%" (
 )
 
 echo Starting %selected_vm%...
-"%DEST_DIR%\qemu-system-x86_64.exe" -m 4096 -hda "%disk_image%" -boot c --accel tcg -device usb-tablet
+"%DEST_DIR%\qemu-system-x86_64.exe" -m 4096 -hda "%disk_image%" -boot c --accel tcg
 
 :end
