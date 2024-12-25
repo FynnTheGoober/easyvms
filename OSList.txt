@@ -1,2 +1,2 @@
-Ubuntu 22.04,https://releases.ubuntu.com/24.04.1/ubuntu-24.04.1-desktop-amd64.iso
+Ubuntu 24.04,https://releases.ubuntu.com/24.04.1/ubuntu-24.04.1-desktop-amd64.iso
 Arch Linux,https://geo.mirror.pkgbuild.com/iso/2024.12.01/archlinux-x86_64.iso
