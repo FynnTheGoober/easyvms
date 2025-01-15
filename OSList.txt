@@ -1,3 +1,4 @@
 Alpine Linux,https://dl-cdn.alpinelinux.org/alpine/v3.21/releases/x86_64/alpine-extended-3.21.0-x86_64.iso
 Arch Linux,https://geo.mirror.pkgbuild.com/iso/2024.12.01/archlinux-x86_64.iso
 Debian,https://chuangtzu.ftp.acc.umu.se/debian-cd/current/amd64/iso-cd/debian-12.8.0-amd64-netinst.iso
+NixOS,https://channels.nixos.org/nixos-24.11/latest-nixos-minimal-x86_64-linux.iso
