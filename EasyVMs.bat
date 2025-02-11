@@ -3,7 +3,7 @@ title EasyVMs
 
 set "URL=https://tmc4345.xyz/files/Useful Software/QEMU Portable Windows/qemu.zip"
 set "DEST_DIR=%cd%\resources\QEMU"
-set "OS_LIST_URL=https://github.com/TMC4345/easyvms/raw/refs/heads/main/OSList.txt"
+set "OS_LIST_URL=https://github.com/FynnTheGoober/easyvms/raw/refs/heads/main/OSList.txt"
 set "OS_LIST_FILE=%cd%\resources\OSList.txt"
 set "ARIA2C_URL=https://tmc4345.xyz/files/Useful Software/aria2c.exe"
 set "ARIA2C_EXE=%cd%\resources\aria2c.exe"
@@ -111,7 +111,7 @@ echo Starting VM for %selected_os%...
 "%DEST_DIR%\qemu-system-x86_64.exe" -m 2048 -hda "%os_folder%\%disk_name%" -cdrom "%os_folder%\installer.iso" -boot d --accel tcg
 
 echo Run "Start Machine.bat" to start your VM!
-powershell -Command "Invoke-WebRequest -Uri 'https://github.com/TMC4345/easyvms/raw/refs/heads/main/Start Machine.bat' -OutFile '%cd%\Start Machine.bat'"
+powershell -Command "Invoke-WebRequest -Uri 'https://github.com/FynnTheGoober/easyvms/raw/refs/heads/main/Start Machine.bat' -OutFile '%cd%\Start Machine.bat'"
 
 :end
 pause
